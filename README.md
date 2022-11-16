@@ -14,8 +14,12 @@ Eu comecei tendo algumas dificuldades com o back-end. Não entendia bem o funcio
 ##### Para rodar o projeto: 
 
 Execute o comando: npm install
+#
 Depois, crie um arquivo “.env” com:
+#
 PORT = “A porta que você escolheu aqui”
+#
 MONGO_CONNECTION_URL = “A sua conexão com o MONGODB aqui”
+#
 TOKEN_Secret = “Seu segredo de Token aqui"
  
