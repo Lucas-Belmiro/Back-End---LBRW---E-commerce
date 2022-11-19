@@ -25,7 +25,7 @@ const dadosController = {
         let pagamento = req.body.pagamento;
         let produto = req.body.produto;
 
-        let dados = new Dados({ 
+        let dados = new Dados({
             cep,
             cidade,
             complemento,
@@ -45,7 +45,7 @@ const dadosController = {
             });
 
         } catch (error) {
-            res.send(error);
+            res.status(500).send(error);
         }
 
     },
